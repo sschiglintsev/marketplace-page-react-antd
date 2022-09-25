@@ -1,0 +1,54 @@
+@import "../../../common/styles/sass/variables";
+
+.nav {
+  min-width: 100vh;
+  height: 139px;
+  background-color: $BgColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    .navBar {
+      width: 473px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text {
+        color: $textColorFour;
+        text-decoration: none;
+      }
+      .text:hover {
+        color: $textColorSix;
+      }
+    }
+    .logo {
+      width: 355px;
+      height: 74px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .navBarDetail {
+      width: 473px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .text {
+        color: $textColorFive;
+        text-decoration: none;
+      }
+      .text:hover {
+        color: $textColorSix;
+      }
+    }
+  }
+}
