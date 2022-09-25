@@ -1,0 +1,9 @@
+@import "../../common/styles/sass/variables";
+
+.infoBlock {
+  min-height: 100vh;
+  background-color: $BgColor;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
