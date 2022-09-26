@@ -43,5 +43,25 @@
       color: $textColorSecond;
       text-align: left;
     }
+
+    .button {
+      width: 442px;
+      height: 97px;
+      margin-top: 55px;
+      background-color: $buttonSecondColor;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .textButton {
+        color: $textColorSecond;
+        font-family: 'Outfit', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.265em;
+        text-transform: uppercase;
+      }
+    }
   }
 }
