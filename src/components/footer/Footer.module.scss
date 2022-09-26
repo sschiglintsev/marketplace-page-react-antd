@@ -4,6 +4,55 @@
   min-height: 100vh;
   background-color: $footerColor;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   box-sizing: border-box;
+
+  .logoContainer {
+    width: 90%;
+    display: flex;
+    justify-content: left;
+    margin-top: 56px;
+
+    .logo {
+      width: 145px;
+      height: 82px;
+    }
+  }
+
+  .line {
+    width: 90%;
+    height: 1px;
+    background-color: $buttonFirstColor;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .blockOneContainer {
+    width: 90%;
+
+    .blockOne {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      text-align: left;
+      color: $textColorFour;
+      font-family: 'Outfit', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 25px;
+      line-height: 32px;
+      letter-spacing: -0.309091px;
+
+      .title {
+        color: $textColorSecond;
+      }
+
+      .text {
+        padding-top: 20px;
+        color: $textColorFour;
+      }
+    }
+  }
+
 }

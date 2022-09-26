@@ -1,0 +1,64 @@
+@import "../../../common/styles/sass/variables";
+
+.productContainer {
+  width: 361px;
+  height: 518px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: auto;
+  .imgContainer {
+    width: 361px;
+    height: 361px;
+    background-color: $BgColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .img {
+      width: 269px;
+      height: 269px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      min-width: auto;
+      min-height: auto;
+    }
+  }
+  .text {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.1003px;
+    line-height: 32px;
+    text-align: left;
+  }
+  .price {
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 33px;
+    text-align: left;
+    color: $textColorFive;
+  }
+  .button {
+    width: 361px;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $buttonSecondColor;
+    color: $textColorSecond;
+    font-family: 'Outfit', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    cursor: pointer;
+  }
+}

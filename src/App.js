@@ -15,8 +15,6 @@ function App() {
       <NewProduct/>
       <Collection/>
       <ManufacBlock/>
-      <FurnitureBlock/>
-      <InfoBlock/>
       <Footer/>
     </div>
   );

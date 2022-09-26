@@ -18,6 +18,12 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      @media screen and (max-width: 1350px) {
+        width: 400px;
+      }
+      @media screen and (max-width: 1200px) {
+        width: 350px;
+      }
       .text {
         color: $textColorFour;
         text-decoration: none;
@@ -36,12 +42,21 @@
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
+      @media screen and (max-width: 1200px) {
+        width: 300px;
+      }
     }
     .navBarDetail {
       width: 473px;
       display: flex;
       justify-content: space-between;
       align-items: center;
+      @media screen and (max-width: 1350px) {
+        width: 400px;
+      }
+      @media screen and (max-width: 1200px) {
+        width: 350px;
+      }
       .text {
         color: $textColorFive;
         text-decoration: none;
